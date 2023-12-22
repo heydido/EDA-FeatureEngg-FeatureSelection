@@ -1,0 +1,1 @@
+- The dataset is downloaded from a public GitHub repo. The link is given below: https://github.com/krishnaik06/5-Days-Live-EDA-and-Feature-Engineering/blob/main/Zomatodataset.zip
