@@ -10,7 +10,7 @@ for file in os.listdir('Datasets/Zomato/'):
             for response in responses:
                 try:
                     restaurants_data = response['restaurants']
-                except Exception as e:
+                except KeyError as e:
                     pass
                 for restaurant_data in restaurants_data:
                     master_data_all_restaurants.append(restaurant_data['restaurant'])
